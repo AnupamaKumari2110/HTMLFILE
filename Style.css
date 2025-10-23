@@ -384,4 +384,213 @@ button:hover {
 }
 .foot:hover h6{
     color:black;
+
+}
+/* 🌐 RESPONSIVE DESIGN */
+
+/* ===============================
+   📱 For Tablets (Screen ≤ 992px)
+================================== */
+@media (max-width: 992px) {
+
+  #nav {
+    padding: 0 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+
+  #nav h4 {
+    font-size: 14px;
+  }
+
+  #page1 h1 {
+    font-size: 70px;
+  }
+
+  #page1 h2 {
+    font-size: 25px;
+  }
+
+  #page1 h3 {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  #about {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #about img {
+    width: 250px;
+    height: 250px;
+  }
+
+  #cards-container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .card {
+    width: 40%;
+    height: 300px;
+  }
+
+  #blue h4 {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  #footer {
+    flex-wrap: wrap;
+    gap: 60px;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .foot {
+    width: 40%;
+    font-size: 22px;
+  }
+
+  #page4 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #page4 h1 {
+    font-size: 70px;
+    position: static;
+    text-align: center;
+  }
+
+  .elem {
+    width: 60%;
+    height: 250px;
+  }
+}
+
+/* ===============================
+   📱 For Mobiles (Screen ≤ 600px)
+================================== */
+@media (max-width: 600px) {
+
+  #nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  #nav h4 {
+    font-size: 12px;
+  }
+
+  #page1 h1 {
+    font-size: 45px;
+  }
+
+  #page1 h2 {
+    font-size: 18px;
+  }
+
+  #page1 h3 {
+    width: 85%;
+    font-size: 13px;
+  }
+
+  #about {
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  #about img {
+    width: 80%;
+    height: auto;
+  }
+
+  #about-us h3 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  #about-us p {
+    font-size: 14px;
+  }
+
+  #cards-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .card {
+    width: 80%;
+    height: 250px;
+  }
+
+  #blue {
+    margin: 40px 10px;
+    height: auto;
+    padding: 20px;
+  }
+
+  #blue h4 {
+    font-size: 15px;
+  }
+
+  #food-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image-slider {
+    width: 90%;
+    height: 250px;
+  }
+
+  .content h2 {
+    font-size: 20px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  #content1 {
+    font-size: 18px;
+  }
+
+  #page4 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #page4 h1 {
+    font-size: 40px;
+    position: static;
+  }
+
+  .elem {
+    width: 80%;
+    height: 200px;
+  }
+
+  #footer {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+
+  .foot {
+    width: 80%;
+    font-size: 18px;
+  }
 }
