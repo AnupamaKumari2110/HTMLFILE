@@ -18,10 +18,13 @@ html,body{
     align-items:center;
     justify-content:flex-start;
     padding:0 150px;
-    gap:50px;
     position:fixed;
     z-index: 99;
     background-color:#000;
+    flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
 }
 #nav h4:hover{
     color:rgb(7, 208, 243);
@@ -481,7 +484,7 @@ button:hover {
   }
 
   #page1 h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   #page1 h2 {
@@ -588,4 +591,5 @@ button:hover {
     font-size: 18px;
   }
 }
+
 
