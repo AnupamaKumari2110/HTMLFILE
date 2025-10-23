@@ -386,11 +386,7 @@ button:hover {
     color:black;
 
 }
-/* 🌐 RESPONSIVE DESIGN */
 
-/* ===============================
-   📱 For Tablets (Screen ≤ 992px)
-================================== */
 @media (max-width: 992px) {
 
   #nav {
@@ -471,9 +467,7 @@ button:hover {
   }
 }
 
-/* ===============================
-   📱 For Mobiles (Screen ≤ 600px)
-================================== */
+
 @media (max-width: 600px) {
 
   #nav {
@@ -594,3 +588,4 @@ button:hover {
     font-size: 18px;
   }
 }
+
