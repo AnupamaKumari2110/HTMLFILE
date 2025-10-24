@@ -385,3 +385,53 @@ button:hover {
 .foot:hover h6{
     color:black;
 }
+@media (max-width: 992px) {
+  #nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 30px;
+  }
+
+  #page1 h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  #about {
+    flex-direction: column;
+    margin: 40px 0;
+  }
+
+  #cards-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card {
+    width: 80%;
+    margin-top: 20px;
+  }
+}@media (max-width: 600px) {
+  #page1 h1 {
+    font-size: 40px;
+  }
+  #page1 h2 {
+    font-size: 20px;
+  }
+  #about img {
+    width: 150px;
+    height: 150px;
+  }
+  #blue {
+    flex-direction: column;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
+  }
+  #footer {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 20px 0;
+  }
+}
